@@ -1,0 +1,27 @@
+{
+  "name": "newsscraper",
+  "version": "1.0.0",
+  "description": "\"A web app that lets users leave comments on the lastest news. Noarticles have been written; instead, I used Mongoose and Cheerio to scape news from another site.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisanewhouse/NewsScraper.git"
+  },
+  "author": "lisanewhouse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisanewhouse/NewsScraper/issues"
+  },
+  "homepage": "https://github.com/lisanewhouse/NewsScraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.12.0",
+    "request": "^2.83.0"
+  }
+}

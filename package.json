@@ -4,7 +4,8 @@
   "description": "\"A web app that lets users leave comments on the lastest news. Noarticles have been written; instead, I used Mongoose and Cheerio to scape news from another site.\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,9 @@
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.1",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^4.12.0",
+    "mongoose": "^4.12.1",
+    "path": "^0.12.7",
     "request": "^2.83.0"
-  }
+  },
+  "devDependencies": {}
 }
